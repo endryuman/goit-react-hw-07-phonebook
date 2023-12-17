@@ -8,6 +8,7 @@ import styles from './Section/Section.module.css';
 
 export const App = () => {
   const contacts = useSelector(getContacts);
+  console.log(contacts);
   return (
     <div>
       <Section title="Phonebook">
